@@ -1,0 +1,199 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header h1 {
+    margin:0;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding-right: 550px;
+    color: #fff;
+} 
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+     padding-bottom: 10px;
+     padding-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+     display: block; 
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+
+.parents {
+    background-image: url('pngtree-3d-render-of-a-programmer-in-action-image_3752209.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.parents h2 {
+    font-size: 36px;
+    margin-bottom: 10;
+    text-transform: uppercase;
+    padding: 15%;
+}
+
+.parents p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding: 10%;
+}
+
+.parents a {
+    text-decoration: none;
+    color:aqua;
+    border: solid 2px red;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.parents a:hover {
+    background-color: #0056b3}
+
+.line{
+    width: 600px;
+    color: aqua;
+    text-align: center;
+    border: solid 2px red;
+}
+
+    /* section two  */
+
+.section-2{
+    margin-top: 20px;
+    background-color: #ccc1c1;
+text-align: center;
+border: solid gray 1px;
+}
+
+.icon{
+display: flex;
+justify-content: space-around;
+padding: 20px;
+text-align: center;
+}
+
+.icon i{
+width: 60px;
+height: 40px;
+background-color: #0056b3;
+padding-top: 20px;
+color: white;
+}
+
+.icon h3{
+    margin-top: 10px;
+}
+
+/* section three */
+
+.greater{
+    display: flex;
+    flex-wrap: wrap;
+background-color: rgb(182, 180, 180);
+}
+.greater img{
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+}
+.text{
+    text-align: center;
+padding: 30px;
+background-color: #b6b4b4;
+}
+
+/* section four */
+
+.last-sec{
+    background-image: url('6fd3deb119d4828ecb65fe2a65da9ec7.jpg');
+    background-size:cover;
+    height: 1000px;
+}
+div h1{
+    text-align: center;
+    padding-top: 300px;
+    color: white;
+}
+div h4{
+padding-top: 0;
+margin-top: 0;
+text-align: center ;
+color: #070101;
+}
+.input{
+margin-left: 500px;
+margin-bottom: 20px;
+width: 400px;
+background-color:rgba(0, 0, 0, 0);
+color: white;
+}
+
+div textarea{
+    height: 100px;
+}
+.checkbox{
+margin-left: 550px;
+color: white;
+}
+.only{
+background-color: #0701010c;
+    margin-left:100px;
+    height: 30px;
+    width: 65px;
+    color: white;
+}
+span{
+    color: white;
+    padding: 5px;
+}
+.icon-2{
+    display: flex;
+justify-content: flex-end;
+margin-top: 3px;
+padding: 10px ;
+}
+.icon-2 i{
+    background-color: #0056b3;
+    color: white;
+    width: 20px;
+    height: 17px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
